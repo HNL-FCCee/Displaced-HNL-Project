@@ -1,8 +1,13 @@
 # HNL Project
 
+- [HNL Project](#hnl-project)
+  * [Welcome](#welcome)
+  * [Editing the repository](#editing-the-repository)
+
+## Welcome
 Welcome to the HNL Project git page.
 How do you use it?
-It is markdown (see the extension of this file, '.md'), you can learn a bit more on what markdown can do, you can check the [GitHub markdown guide](https://guides.github.com/features/mastering-markdown/)
+It is markdown (see the extension of this file, '.md'), you can learn a bit more on what markdown can do, you can check the [GitHub markdown guide](https://guides.github.com/features/mastering-markdown/), and also my favorite place, [CodiMD](https://codimd.web.cern.ch/). 
 
 ## Editing the repository
 Since it is for documentation, no need for branches.
