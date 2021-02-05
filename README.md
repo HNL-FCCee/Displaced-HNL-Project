@@ -10,11 +10,13 @@ How do you use it?
 It is markdown (see the extension of this file, '.md'), you can learn a bit more on what markdown can do, you can check the [GitHub markdown guide](https://guides.github.com/features/mastering-markdown/), and also my favorite place, [CodiMD](https://codimd.web.cern.ch/). 
 
 ## Editing the repository
-Since it is for documentation, no need for branches.
+Since it is for documentation, no need for branches, so we send everything to the main branch.
 
 You can edit directly in the browser using the pencil:
 
 ![Pencil blue](pencil.png?raw=true "Pencil in blue")
+
+When you are done, you just go down in the page and click the green button that says "Commit changes". 
 
 Or you can copy the repository to a folder in your computer or the lxplus using the following commands.
 The first time you need to clone the repository:
