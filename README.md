@@ -10,7 +10,7 @@ This is the code used for the project titled: [Towards Vertexing Studies of Heav
 
 
 ## Analysis Files 
- concerns the analysis files gen_distributions_delphes.py and [analysis_HNL_read.py](analysis_HNL_read.py) for HNL analysis at the FCC-ee.
+ concerns the analysis files [gen_distributions_delphes.py](gen_distributions_delphes.py) and [analysis_HNL_read.py](analysis_HNL_read.py) for HNL analysis at the FCC-ee.
 
 To run gen_distributions_delphes.py a standalone setup created by Suchita Kulkarni (suchita.kulkarni@cern.ch) has to be setup first. 
 The setup requires python 3.7 (or higher), Root (version 6.x), PYTHIA8, DELPHES with FastJet and MadGraph.
