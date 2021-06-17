@@ -6,11 +6,11 @@
   * [Editing the repository](#editing-the-repository)
 
 ## Welcome
-This is the code used for the project titled:[Towards Vertexing Studies of Heavy Neutral Leptons with the Future Circular Collider at CERN](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-444997) by Rohini Sengupta, defended in June 2021. 
+This is the code used for the project titled: [Towards Vertexing Studies of Heavy Neutral Leptons with the Future Circular Collider at CERN](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-444997) by Rohini Sengupta, defended in June 2021. 
 
 
 ## Analysis Files 
- concerns the analysis files gen_distributions_delphes.py and analysis_HNL_read.py for HNL analysis at the FCC-ee.
+ concerns the analysis files gen_distributions_delphes.py and [analysis_HNL_read.py](analysis_HNL_read.py) for HNL analysis at the FCC-ee.
 
 To run gen_distributions_delphes.py a standalone setup created by Suchita Kulkarni (suchita.kulkarni@cern.ch) has to be setup first. 
 The setup requires python 3.7 (or higher), Root (version 6.x), PYTHIA8, DELPHES with FastJet and MadGraph.
