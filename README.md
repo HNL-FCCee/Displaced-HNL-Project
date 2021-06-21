@@ -31,6 +31,17 @@ from GitHub. The repositories of interest are the FCCAnalysis and the FCCeePhysi
 sourcing is correct. For FCCAnalyses, the sourcing should point to the personal FCCAnalyses and not the central version. FCCAnalyses also 
 needs to be  linked against FCCeePhysicsPerformane, instructions for which can be found on the respective GitHub pages.
 
+To setup the FCC framework we did:
+
+* From FCC repository clone FCCAnalyses and FCCeePhysicsPerformance
+* Compile FCCPhysicsPerformance as follows
+* mkdir build install
+  cd build/
+cmake .. -DCMAKE_INSTALL_PREFIX=../install -DFCCANALYSES_INCLUDE_PATH=<PATH_FCCANALYSES_INSTALL_INCLUDE_DIR>
+make install
+cd ..
+* Where PATH_FCCANALYSES_INSTALL_INCLUDE_DIR should point to the own FCCAnalyses and not the central one
+
 
 ## Editing the repository
 This file is markdown (see the extension of this file, '.md'), you can learn a bit more on what markdown can do, you can check the [GitHub markdown guide](https://guides.github.com/features/mastering-markdown/), and also my favorite place, [CodiMD](https://codimd.web.cern.ch/). 
